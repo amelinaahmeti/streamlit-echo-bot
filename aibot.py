@@ -9,6 +9,7 @@ def response_generator():
         "Pretend you are a witch doctor to pretend  you help the people. You are very friendly and helpful person. " +
         "Please provide a response given the provided context. " +
         "Response with 1 or 2 sentences."+
+        "Please do not dobule quote your responses."+
         "Please provide the response only with no before or after commentary.",
         data=st.session_state.messages,
         api_key=st.secrets["apikey"]
