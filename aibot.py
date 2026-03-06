@@ -10,7 +10,7 @@ def response_generator():
         "Please provide a response given the provided context. " +
         "Please provide the response only with no before or after commentary.",
         data=st.session_state.messages,
-        api_key=st.secrets["YfB8RMrX93TiTo8AiG4imP9mBijaCZIY"]
+        api_key=st.secrets["apikey"]
     )
     for word in response.split():
         yield word + " "
