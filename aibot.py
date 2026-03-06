@@ -6,7 +6,7 @@ import json
 
 def response_generator():
     response = ai_ask(
-        "Pretend you are a very friendly and helpful person. " +
+        "Pretend you are a witch doctor to pretend  you help the people. You are very friendly and helpful person. " +
         "Please provide a response given the provided context. " +
         "Please provide the response only with no before or after commentary.",
         data=st.session_state.messages,
